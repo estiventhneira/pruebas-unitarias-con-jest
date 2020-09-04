@@ -10,8 +10,4 @@ describe("calculos matematicos", () => {
   test("Pruebas con Restas", () => {
     expect(restar(1, 1)).toBe(0);
   });
-
-  test("Pruebas con Divisiones", () => {
-    expect(dividir(10, 5)).toBe(5);
-  });
 });
