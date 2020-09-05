@@ -1,7 +1,7 @@
 import { sumar, multiplicar, restar, dividir } from "../maths";
 
 describe("calculos matematicos", () => {
-  test("Pruebas con Sumas", () => {
+  test("Pruebas con Sumass", () => {
     expect(sumar(1, 1)).toBe(2);
   });
   test("prueba de multiplicar", () => {
