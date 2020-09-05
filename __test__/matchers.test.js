@@ -8,9 +8,9 @@ describe("Comparando Valores", () => {
     apellido: "neira",
   };
   test("should be equal", () => {
-    expect(user).toEqual(user2);
+    expect(user).toEqual(user);
   });
   test("should be equal", () => {
-    expect(user).not.toEqual(user2);
+    expect(user).toEqual(user2);
   });
 });
