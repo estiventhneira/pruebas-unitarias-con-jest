@@ -1,7 +1,7 @@
 import { getDataFromApi } from "../promise";
 
 describe("probando promesas", () => {
-  test("should return data", (done) => {
+  test("should return datas", (done) => {
     const api = "https://rickandmortyapi.com/api/character/";
     getDataFromApi(api).then((data) => {
       expect(data.results.length).toBeGreaterThan(0);
